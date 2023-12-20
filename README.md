@@ -1,5 +1,3 @@
-# RL-RQAOA-paper-code
-
 This is the data repository for the paper [arXiv:2207.06294](https://arxiv.org/abs/2207.06294).
 
 We provide the graph ensemble of the Ising model instances modeled as $d$-regular graphs that we use in our paper to test and benchmark the performance of recursive quantum approximation optimization algorithm (RQAOA). All the instances are weighted either with bimodal or Gaussian distribution. There are a total of 1057 (857 Gaussian and 170 bimodal) edge-weighted instances of sizes up to 30 where RQAOA fails to achieve an approximation ratio better than $0.95$. Moreover, we included $3$-regular graphs of size $100$ and $200$ as well which we used to demonstrate the contribution of the quantum circuit in our algorithm. For the sake of completeness, we also include Cage instances however they could also be found [here](https://www.win.tue.nl/~aeb/graphs/cages/cages.html). 
